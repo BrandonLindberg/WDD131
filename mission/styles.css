@@ -1,0 +1,23 @@
+.sub {
+    color: #0470b8;
+}
+
+body {
+    font-size: 20px;
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    padding: 8%;
+}
+
+main {
+    text-align: left;
+}
+
+.list {
+    text-align: left;
+}
+
+img {
+    width: 25%;
+}
