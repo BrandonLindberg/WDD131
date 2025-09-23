@@ -10,7 +10,7 @@ function changeTheme()
 
     else {
         document.body.classList.remove("dark-mode");
-        image.src = "byui-logo_blue.webp"
+        image.src = "byui-logo_blue.webp";
     }
 }
 
