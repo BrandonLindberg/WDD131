@@ -1,26 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+
 body {
-    /*background-color:*/
+    font-family: "Mooli";
+    background-color: purple;
+    margin: 0;
+}
+
+.viewer {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.75);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 header {
-    background-color: purple;
     color: white;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .menu-links a {
+    display: block;
     color: white;
+    padding: 15px;
+}
+
+button {
+    color: white;
+    font-family: "Mooli";
+    font-size: 25px;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.hide {
+    display: none;
 }
 
 main {
     background-color: white;
-    margin: 0;
-    padding: 0;
+    text-align: center;
+    padding: 10px;
 }
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 20px;
     justify-items: center;
 }
@@ -29,18 +57,34 @@ main {
     max-width: 100%;
     height: 250px;
     width: 250px;
+    object-fit: cover;
     border: 5px solid white;
     box-shadow: 3px 3px 6px grey;
 }
 
-img {
-    max-width: 100%;
-    height: 250px;
-    width: 250px;
-    object-fit: cover;
+footer {
+    color: white;
+    margin-top: 100px;
 }
 
-footer {
-    background-color: purple;
-    color: white;
+@media screen and (min-width: 750px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    header {
+        margin-bottom: 10px;
+    }
+
+    .menu-links {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
