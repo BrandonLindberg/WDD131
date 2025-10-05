@@ -1,0 +1,54 @@
+body {
+
+}
+
+header {
+    /*text-align: center;*/
+}
+
+.title {
+    text-align: center;
+}
+
+nav {
+    border: 1px solid black;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: 100px 100px 90px;
+    justify-content: end;
+    justify-items: end;
+    margin: 0 auto;
+    max-width: 95%;
+    padding: 20px 0px;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    margin: 20px 50px;
+}
+
+.article {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 25px;
+}
+
+.book-details {
+
+}
+
+.book-info {
+    text-align: right;
+    line-height: 10px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+
+.filter-tab {
+    border: 1px solid black;
+}

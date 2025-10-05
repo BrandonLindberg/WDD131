@@ -25,3 +25,11 @@ const articles = [
 		stars: '⭐⭐⭐⭐'
 	}
 ]
+
+function getArticle(){
+	
+}
+
+function buildArticle(){
+	document.querySelector(".article")
+}
