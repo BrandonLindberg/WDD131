@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Lexend:wght@100..900&display=swap');
+
 @layer {
 html {
     background-color: var(--darkreader-background-ffffff, #181a1b) !important;
@@ -124,14 +126,14 @@ select:-webkit-autofill {
 
 :root {
   
-  --primary-color: #396e94;
-  --secondary-color: #e7c24f;
-  --accent1-color: #a42212;
-  --accent2-color: white;
+  --primary-color: #0873EE;
+  --secondary-color: #0F0A15;
+  --accent1-color: #d5573b;
+  --accent2-color: #ffbe11;
 
   
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Lexend";
+  --paragraph-font: "Funnel Sans";
 
   
   --headline-color-on-white: var(
@@ -142,7 +144,7 @@ select:-webkit-autofill {
     --primary-color
   ); 
   --paragraph-color-on-color: white; 
-  --paragraph-background-color: var(--primary-color);
+  --paragraph-background-color: var(--secondary-color);
   --nav-link-color: var(--primary-color);
   --nav-background-color: var(--secondary-color);
   --nav-hover-link-color: white;
@@ -219,6 +221,7 @@ p {
 }
 .accent2 {
   background-color: var(--accent2-color);
+  color: black;
 }
 
 p.colored {
