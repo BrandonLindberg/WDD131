@@ -1,0 +1,25 @@
+main {
+
+}
+
+#creditCardForm {
+    display: grid;
+    grid-template-columns: 200px 400px 200px;
+}
+
+#cardFront {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#cardBack {
+    grid-column-start: 2;
+}
+
+#cardMonth, #cardYear {
+    width: 40px;
+}
+
+label {
+    display: block;
+}
