@@ -2,8 +2,16 @@ body {
 
 }
 
+img {
+    max-width: 100%;
+}
+
 header {
-    
+    display: flex;
+}
+
+header img {
+    max-width: 100px;
 }
 
 main {
