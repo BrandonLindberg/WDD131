@@ -1,17 +1,11 @@
-body {
-
-}
-
-header {
-    /*text-align: center;*/
-}
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 .title {
     text-align: center;
 }
 
 nav {
-    border: 1px solid black;
+    border: 1px solid #EFC69B;
 }
 
 .nav-menu {
@@ -26,29 +20,44 @@ nav {
     list-style-type: none;
 }
 
+.nav-menu a {
+    color: #AF1B3F;
+    text-decoration: none;
+}
+
 main {
     display: grid;
-    grid-template-columns: 1fr 250px;
+    grid-template-columns: 3fr 1fr;
     margin: 20px 50px;
+}
+
+h1, h3 {
+    font-family: "Lora";
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .article {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 25px;
+    margin-bottom: 50px;
 }
 
-.book-details {
-
+.article h3 {
+    color: #AF1B3F;
 }
 
 .book-info {
     text-align: right;
     line-height: 10px;
     padding-right: 10px;
-    border-right: 1px solid black;
+    border-right: 1px solid #EFC69B;
 }
 
 .filter-tab {
-    border: 1px solid black;
+    grid-column: 2/3;
+    border: 1px solid #EFC69B;
 }
